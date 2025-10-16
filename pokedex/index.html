@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body id="body">
+        
+    <div class="top">
+        <input id="buscar" placeholder="Buscar" type="text">
+        <button id="mostrar">Buscar</button> 
+    </div>
+    <h2>tipos de pokemon</h2>
+    <select id="opciones" title="tipos">
+        <option value="normal">Normal</option>
+        <option value="fighting">Peleador</option>
+        <option value="flying">Volador</option>
+        <option value="poison">Veneno</option>
+        <option value="rock">Roca</option>
+        <option value="bug">Bicho</option>
+        <option value="ghost">Fantasma</option>
+        <option value="steel">Acero</option>
+        <option value="fire">Fuego</option>
+        <option value="water">Agua</option>
+        <option value="grass">Planta</option>
+        <option value="electric">Eléctrico</option>
+        <!-- Puedes agregar más opciones según sea necesario -->
+    </select>
+    
+    <div id="borrar">
+        <ol id="tiposo">
+            
+        </ol>
+    </div>
+
+    <div id="contenedor">
+        <div id="card">
+            <div id="paisaje">
+                <div id="img"></div>
+            </div>
+            <div id="info">
+                <h1 id="nombre"></h1>
+                <p id="detalles"></p>
+                <p id="tipo"></p>
+                <audio id="audio" autoplay></audio>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
